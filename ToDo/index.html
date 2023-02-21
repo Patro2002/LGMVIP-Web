@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+	<header>
+		<div>
+			
+			<h1>
+				<img src="mylogo.jpg" height="80" width="100" alt="todo pic">
+				Today's ToDo List
+			</h1>
+			
+		</div>
+
+		<form autocomplete="off" id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="What's your Plan for Today?" />
+			<input type="submit" id="new-task-submit" value="Add Task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Your Task List</h2>
+
+			<div id="tasks">
+				<!-- Used JS for this -->
+			</div>
+		</section>
+	</main>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
